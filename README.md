@@ -1,4 +1,14 @@
-## Model Comparison for a Bynary Classification APP
-This is a simple application that allows to compare performance of three diferente machine leanring algorithms.
+# Interactive Machine Learning Traiining with Streamlit
 
-The app was created using streamlit wich allows user intereactivity. In the app the hypermarameters of the model can be modifiy to study the effect in the performance of the model in the test data.
+This applicaiton is my first attemp to use streamlite to deploy an interactive machine learnign app. The main purpose is to work with a simple dataset and study the performance of the different ML algorithms 
+
+This app is design to:
+- Create an interact interface for hyperparamater tunning
+- Compare model performance using most common performance metrics.
+
+## How To Use ?
+
+- In the sidebar the model for binary classification
+- Selec the value for the hyperparameter for the model selected
+- Choose metric for plotting
+- Click Classify buttom
