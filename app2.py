@@ -1,6 +1,7 @@
 import streamlit as st
-import pandas as pd
+import matplotlib as plt
 import numpy as np
+import pandas as pd
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
@@ -18,7 +19,7 @@ def main():
     if nav == 'Classify':
         st.markdown(''' - In the sidebar the model for binary classification
 - Choose the value for the hyperparameter for the model selected
-- Choose metric for plotting
+- Choose metric for plottingS
 - Click Classify buttom''')
         st.sidebar.title('Model Parameters')
         st.sidebar.markdown('Are you mushroom edible or posisson? ')
